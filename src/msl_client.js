@@ -52,7 +52,7 @@ function generateEsn() {
 
 var manifestUrl = "https://www.netflix.com/nq/msl_v1/cadmium/pbo_manifests/^1.0.0/router";
 var licenseUrl = "https://www.netflix.com/nq/msl_v1/cadmium/pbo_licenses/^1.0.0/router";
-var shaktiMetadataUrl = "https://www.netflix.com/api/shakti/d7cab521/metadata?movieid=";
+var shaktiMetadataUrl = "https://www.netflix.com/api/shakti/vb13b96d9/metadata?movieid=";
 var defaultEsn = "NFCDIE-04-" + generateEsn();
 var profiles = [
     "playready-h264mpl30-dash",

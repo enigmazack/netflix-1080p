@@ -1,8 +1,8 @@
 // From EME Logger extension
 
 script_urls = [
-    'https://cdn.rawgit.com/ricmoo/aes-js/master/index.js',
-    'https://cdn.rawgit.com/Caligatio/jsSHA/master/src/sha.js'
+    'https://cdn.jsdelivr.net/npm/aes-js@3.1.2/index.min.js',
+    'https://cdn.jsdelivr.net/npm/jssha@3.2.0/dist/sha.min.js'
 ]
 
 urls = [
