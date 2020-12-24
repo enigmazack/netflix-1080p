@@ -49614,7 +49614,8 @@ a000.J0k = function () {
           });
         };
         c.prototype.veb = function (a) {
-          a.ctrlKey && a.altKey && a.shiftKey && a.keyCode == h.Ps.u$a && this.$0.sla && this.toggle();
+          // a.ctrlKey && a.altKey && a.shiftKey && a.keyCode == h.Ps.u$a && this.$0.sla && this.toggle();
+          a.ctrlKey && a.altKey && a.shiftKey && a.keyCode == h.Ps.u$a && this.toggle();
         };
         b.MAa = c;
       }, function (d, b, a) {
@@ -112513,7 +112514,20 @@ a000.J0k = function () {
                 "playready-h264hpl30-dash",
                 "playready-h264hpl31-dash",
                 "playready-h264hpl40-dash",
+
+                // "vp9-profile0-L21-dash-cenc",
+                // "vp9-profile0-L30-dash-cenc",
+                // "vp9-profile0-L31-dash-cenc",
+                // "vp9-profile0-L40-dash-cenc",
+
+                // "vp9-profile2-L30-dash-cenc-prk",
+                // "vp9-profile2-L31-dash-cenc-prk",
+                // "vp9-profile2-L40-dash-cenc-prk",
+                // "vp9-profile2-L50-dash-cenc-prk",
+                // "vp9-profile2-L51-dash-cenc-prk",
                 
+                // "ddplus-5.1hq-dash",
+                // "ddplus-atoms-dash",
                 "heaac-2-dash",
                 "heaac-2hq-dash",
                 "heaac-5.1-dash",
